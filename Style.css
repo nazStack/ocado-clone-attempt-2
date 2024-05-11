@@ -1,0 +1,36 @@
+.container{
+    display: grid;
+    grid-gap:5px;
+    grid-template-areas: 
+        "navBar navBar"
+        "header header"
+        "main ocadoPhoto"
+        "footer footer";
+
+}
+
+.item{
+    background-color: #0000FF;
+    color: #000000;
+    text-align: center;
+    padding: 20px;
+}
+
+.navBar{
+    grid-area: navBar;
+}
+
+.header{
+    grid-area: header;
+}
+
+.main{
+    grid-area: main;
+}
+.ocadoPhoto{
+    grid-area: ocadoPhoto;
+}
+
+.footer{
+    grid-area: footer;
+}
